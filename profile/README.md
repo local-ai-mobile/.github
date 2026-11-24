@@ -1,7 +1,9 @@
 # local-ai-mobile
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/local-ai-mobile/.github/main/assets/banner.png" alt="local-ai-mobile Banner" width="800" onerror="this.style.display='none'"/>
+  <a href="https://localai.shanaka.dev/">
+    <img src="https://raw.githubusercontent.com/local-ai-mobile/.github/main/assets/banner.png" alt="local-ai-mobile Banner" width="800" onerror="this.style.display='none'"/>
+  </a>
 </p>
 
 <h3 align="center">
@@ -13,6 +15,8 @@
 </p>
 
 <p align="center">
+  <a href="https://localai.shanaka.dev/"><img src="https://img.shields.io/badge/Website-localai.shanaka.dev-blue.svg" alt="Official Website"/></a>
+  <a href="https://play.google.com/store/apps/details?id=dev.shanaka.localai"><img src="https://img.shields.io/badge/Google_Play-Local_AI-414141.svg?logo=googleplay&logoColor=white" alt="Google Play Store"/></a>
   <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0"/></a>
   <a href="https://developer.android.com"><img src="https://img.shields.io/badge/Platform-Android%20API%2026%2B-3DDC84.svg?logo=android&logoColor=white" alt="Platform: Android API 26+"/></a>
   <a href="https://kotlinlang.org"><img src="https://img.shields.io/badge/Language-Kotlin%202.2%2B-7F52FF.svg?logo=kotlin&logoColor=white" alt="Language: Kotlin 2.2+"/></a>
@@ -32,6 +36,17 @@ The ecosystem is architected into three specialized, decoupled, and independentl
 1. **`android-inference-engine`**: Universal on-device inference runtime powering **offline llama.cpp Android** (GGUF universal quantization), Google **LiteRT NPU acceleration** (formerly TensorFlow Lite), and **Gemini Nano Android** via Android 14+ AICore.
 2. **`android-mcp-tools`**: The standard **Android Model Context Protocol** (MCP) implementation providing 9 on-device system tools, robust multi-IPC transports (AIDL, ContentProvider, Messenger, HTTP/SSE), and strict 4-mode user authorization gates.
 3. **`android-agent-workflow`**: Production-ready **autonomous mobile agent** framework featuring an iterative **Plan-Execute-Observe-Verify** reasoning loop, mobile **context distillation** (~300 char compaction), 3-tier request routing, and battery-guarded background execution.
+
+---
+
+<a id="flagship-app"></a>
+## 📱 Experience the Flagship App on Android
+
+The libraries across the **local-ai-mobile** ecosystem serve as the high-performance core engine powering **Local AI**, the flagship consumer Android application for private on-device intelligence:
+
+- 🌐 **Official Website**: [https://localai.shanaka.dev/](https://localai.shanaka.dev/)
+- 📲 **Google Play Store**: [Get Local AI on Google Play](https://play.google.com/store/apps/details?id=dev.shanaka.localai)
+- 🔒 **100% Offline & Private**: Experience ultra-low latency token generation, system tool discovery, and autonomous agent loops directly on your Android smartphone — zero cloud subscriptions, zero data tracking.
 
 ---
 
